@@ -334,26 +334,26 @@ include_directories(
 	${GEN_DIR}/ir/ir
 )
 
-add_backend(ia32
-	ir/be/ia32/ia32_architecture.c
-	ir/be/ia32/ia32_bearch.c
-	ir/be/ia32/ia32_cconv.c
-	ir/be/ia32/ia32_emitter.c
-	ir/be/ia32/ia32_encode.c
-	ir/be/ia32/ia32_finish.c
-	ir/be/ia32/ia32_fpu.c
-	ir/be/ia32/ia32_intrinsics.c
-	ir/be/ia32/ia32_new_nodes.c
-	ir/be/ia32/ia32_optimize.c
-	ir/be/ia32/ia32_pic.c
-	ir/be/ia32/ia32_transform.c
-	ir/be/ia32/x86_address_mode.c
-	ir/be/ia32/x86_architecture.c
-	ir/be/ia32/x86_asm.c
-	ir/be/ia32/x86_cconv.c
-	ir/be/ia32/x86_node.c
-	ir/be/ia32/x86_x87.c
-)
+#add_backend(ia32
+#	ir/be/ia32/ia32_architecture.c
+#	ir/be/ia32/ia32_bearch.c
+#	ir/be/ia32/ia32_cconv.c
+#	ir/be/ia32/ia32_emitter.c
+#	ir/be/ia32/ia32_encode.c
+#	ir/be/ia32/ia32_finish.c
+#	ir/be/ia32/ia32_fpu.c
+#	ir/be/ia32/ia32_intrinsics.c
+#	ir/be/ia32/ia32_new_nodes.c
+#	ir/be/ia32/ia32_optimize.c
+#	ir/be/ia32/ia32_pic.c
+#	ir/be/ia32/ia32_transform.c
+#	ir/be/ia32/x86_address_mode.c
+#	ir/be/ia32/x86_architecture.c
+#	ir/be/ia32/x86_asm.c
+#	ir/be/ia32/x86_cconv.c
+#	ir/be/ia32/x86_node.c
+#	ir/be/ia32/x86_x87.c
+#)
 add_backend(arm
 	ir/be/arm/arm_bearch.c
 	ir/be/arm/arm_cconv.c
@@ -374,20 +374,20 @@ add_backend(sparc
 	ir/be/sparc/sparc_stackframe.c
 	ir/be/sparc/sparc_transform.c
 )
-add_backend(amd64
-	ir/be/amd64/amd64_architecture.c
-	ir/be/amd64/amd64_bearch.c
-	ir/be/amd64/amd64_cconv.c
-	ir/be/amd64/amd64_emitter.c
-	ir/be/amd64/amd64_finish.c
-	ir/be/amd64/amd64_new_nodes.c
-	ir/be/amd64/amd64_optimize.c
-	ir/be/amd64/amd64_pic.c
-	ir/be/amd64/amd64_transform.c
-	ir/be/amd64/amd64_varargs.c
-	ir/be/amd64/amd64_x87.c
-	ir/be/amd64/amd64_abi.c
-)
+#add_backend(amd64
+#	ir/be/amd64/amd64_architecture.c
+#	ir/be/amd64/amd64_bearch.c
+#	ir/be/amd64/amd64_cconv.c
+#	ir/be/amd64/amd64_emitter.c
+#	ir/be/amd64/amd64_finish.c
+#	ir/be/amd64/amd64_new_nodes.c
+#	ir/be/amd64/amd64_optimize.c
+#	ir/be/amd64/amd64_pic.c
+#	ir/be/amd64/amd64_transform.c
+#	ir/be/amd64/amd64_varargs.c
+#	ir/be/amd64/amd64_x87.c
+#	ir/be/amd64/amd64_abi.c
+#)
 add_backend(mips
 	ir/be/mips/mips_bearch.c
 	ir/be/mips/mips_bearch_t.h

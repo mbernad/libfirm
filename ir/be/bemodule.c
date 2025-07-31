@@ -89,11 +89,11 @@ void be_init_modules(void)
 	be_init_state();
 
 	/* in the following groups the first one is the default */
-	be_init_arch_ia32();
+	//be_init_arch_ia32();
 	be_init_arch_arm();
 	be_init_arch_mips();
 	be_init_arch_sparc();
-	be_init_arch_amd64();
+	//be_init_arch_amd64();
 	be_init_arch_riscv32();
 	be_init_arch_TEMPLATE();
 
